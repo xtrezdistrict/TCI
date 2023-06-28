@@ -1,0 +1,396 @@
+body {
+    margin: 0%;
+    padding: 0px;
+    overflow-x: hidden; /* Hide vertical scrollbar */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* header section */
+.top-header {
+    height: 200px;
+    width: 100%;
+  
+}
+
+.image {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.image img {
+    width: 80px;
+    height: 80px;
+    
+    
+    
+}
+
+.top-nav-header {
+    height: 60px;
+    width: 100%;
+    background-color: #2b2d42;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-nav {
+    padding-top: 20px;
+}
+
+.contact-nav a {
+    padding: 5px;
+    text-decoration: none;
+    
+    color: white;
+}
+
+/* middle-form */
+
+.middle-contact-form {
+    height: 1000px;
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.contact-form {
+    display: flex;
+    align-items: right;
+    font-family: 'Ysabeau SC', sans-serif;
+    flex-direction: column;
+}
+
+.placeholder {
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.name-form input {
+    height: 30px;
+    width:250px;
+    border: none;
+    border-bottom: 3px solid black;
+    
+}
+
+.name-form input:focus {
+    outline: none;
+    
+    
+}
+
+.email-form input {
+    height: 30px;
+    width:250px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+.email-form input:focus {
+    outline:none;
+}
+
+
+
+.email-form {
+    padding-top: 20px;
+}
+
+
+.phone-number-form input {
+    height: 30px;
+    width:250px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.phone-number-form input:focus {
+    outline:none;
+}
+
+.phone-number-form {
+    padding-top: 20px;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.radio-form {
+    padding-top: 20px;
+}
+
+.btns {
+    padding-top: 20px;
+
+}
+
+.text-section {
+    width:100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.btns button {
+    border: none;
+    background-color:#2b2d42;
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+    color: aliceblue;
+
+}
+
+.btns button:hover {
+    background-color: aqua;
+}
+
+.text-form textarea {
+   height: 400px;
+   width:500px;
+   border: solid #2b2d42 3px;
+}
+
+.spacer {
+    padding-left: 50px;
+}
+
+.text-form {
+    padding-top: 50px;
+}
+.text1-form {
+    padding-top: 20px;
+    display: flex;
+    padding-left: 230px;
+}
+
+.text1-form button {
+    border: none;
+    background-color:#2b2d42;
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+    color: aliceblue;
+
+}
+
+.text1-form button:hover {
+    background-color: aqua;
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        margin: 0%;
+        padding: 0px;
+    }
+    
+    /* header section */
+    .top-header {
+        height: 100%;
+        width: 100%;
+      
+    }
+    
+    .image {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .image img {
+        width: 80px;
+        height: 80px;
+        
+        
+        
+    }
+    
+    .top-nav-header {
+        height: 60px;
+        width: 100%;
+        background-color: #2b2d42;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact-nav {
+        padding-top: 20px;
+    }
+    
+    .contact-nav a {
+        padding: 5px;
+        text-decoration: none;
+        font-family: 'Ysabeau SC', sans-serif;
+        color: white;
+        font-size: 0.7em;
+    }
+    
+    /* middle-form */
+    
+    .middle-contact-form {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Ysabeau SC', sans-serif;
+    }
+
+    .all-middle-contact-form {
+        font-size: 0.7em;
+        margin-left: 20px;
+    }
+    
+    .contact-form {
+        display: flex;
+        align-items: right;
+        font-family: 'Ysabeau SC', sans-serif;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    
+    .placeholder {
+        font-family: 'Ysabeau SC', sans-serif;
+    }
+    
+    .name-form input {
+        height: 30px;
+        width:250px;
+        border: none;
+        border-bottom: 3px solid black;
+        
+    }
+    
+    .name-form input:focus {
+        outline: none;
+        
+        
+    }
+    
+    .email-form input {
+        height: 30px;
+        width:250px;
+        border: none;
+        border-bottom: 3px solid black;
+    }
+    .email-form input:focus {
+        outline:none;
+    }
+    
+    
+    
+    .email-form {
+        padding-top: 20px;
+    }
+    
+    
+    .phone-number-form input {
+        height: 30px;
+        width:250px;
+        border: none;
+        border-bottom: 3px solid black;
+    }
+    
+    .phone-number-form input:focus {
+        outline:none;
+    }
+    
+    .phone-number-form {
+        padding-top: 20px;
+        
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+    .radio-form {
+        padding-top: 20px;
+    }
+    
+    .btns {
+        padding-top: 20px;
+    
+    }
+    
+    .text-section {
+        width:100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Ysabeau SC', sans-serif;
+        font-size: 0.8em;
+        margin-left: 20px;
+    }
+
+    .text-section h1 {
+       font-size: 1em;
+       width: 70%;
+       margin-right: 70px;
+    }
+    
+    .btns button {
+        border: none;
+        background-color:#2b2d42;
+        width: 90px;
+        height: 30px;
+        border-radius: 4px;
+        color: aliceblue;
+    
+    }
+    
+    .btns button:hover {
+        background-color: aqua;
+    }
+    
+    .text-form textarea {
+       height: 200px;
+       width:200px;
+       border: solid #2b2d42 3px;
+    }
+    
+    .spacer {
+        padding-left: 50px;
+    }
+    
+    .text-form {
+        padding-top: 50px;
+    }
+    .text1-form {
+        padding-top: 20px;
+        display: flex;
+        padding-left: 65px;
+        margin-bottom: 20px;
+    }
+    
+    .text1-form button {
+        border: none;
+        background-color:#2b2d42;
+        width: 90px;
+        height: 30px;
+        border-radius: 4px;
+        color: aliceblue;
+    
+    }
+    
+    .text1-form button:hover {
+        background-color: aqua;
+    }
+
+    .radio-form h3 {
+       font-size: 1em;
+    }
+}

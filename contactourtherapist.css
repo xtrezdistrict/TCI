@@ -1,0 +1,92 @@
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.therapist-section {
+    width: 100%;
+    height: 1000px;
+   
+}
+
+.header-therapist h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.therapist-sector {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin-left: 80px;
+    
+    
+    
+}
+
+.section1 {
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.section1 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 650px) {
+   
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.therapist-section {
+    width: 100%;
+    height: 100%;
+    
+   
+}
+
+.header-therapist h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.therapist-sector {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+    
+    
+}
+
+.section1 {
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    text-align: center;
+    row-gap: 20px;
+    margin-right: 70px;
+}
+
+.section1 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+} 
+}

@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Login-form-container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    
+}
+
+.form-wrapper {
+  width:400px;
+  height:700px;
+  background-color: #2b2d42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  
+}
+
+.logo-man img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+.email-section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 9px;
+}
+
+.password-section {
+    display: flex;
+    flex-direction: column;
+} 
+
+.email-section input {
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+.password-section input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+.spacer2 {
+    padding: 10px;
+}
+
+.forgot-password-section {
+    margin-left: 140px;
+    margin-top: -10px;
+}
+
+.button-area button {
+    width:250px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+}
+
+.Login-with-social-account {
+    margin-bottom: 30px;
+}
+
+.im-angry {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dont-have a {
+   
+    color:whitesmoke
+}
+
+.forgot-password-section a {
+    color: whitesmoke;
+}

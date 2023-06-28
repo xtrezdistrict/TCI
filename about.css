@@ -1,0 +1,346 @@
+/* middle section */
+body {
+    margin: 0px;
+    padding: 0px;
+
+    
+}
+
+.top-header {
+    width: 100%;
+}
+
+.About-section {
+    width: 100%;
+    height: 2700px;
+   
+    
+    
+    
+}
+
+.about-header-section {
+    margin-left: 50px;
+}
+
+.first-heading {
+    width: 50%;
+    height: 50px;
+    background-color: #2b2d42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-top: 20px;
+}
+
+.first-heading h1 {
+    color: aliceblue;
+}
+
+.first-paragraph-section {
+   width: 1000px;
+   font-family: 'Ysabeau SC', sans-serif;
+    
+}
+
+.second-heading {
+    width: 50%;
+    height: 50px;
+    background-color: #2b2d42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.second-heading h1 {
+    color: aliceblue;
+}
+
+.second-paragraph-section {
+    width: 1000px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.third-heading {
+    width: 50%;
+    height: 70px;
+    background-color: #2b2d42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1em;
+    margin-top: 100px;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-align: center;
+   
+}
+
+.third-heading h1 {
+    color: aliceblue;
+}
+
+.third-heading h1 {
+    font-size:1.5em;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.third-paragraph-section {
+    width: 1000px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+
+
+.fourth-heading {
+    margin-top: 100px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.image3-section {
+    margin-top: 130px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.image1-section {
+    margin-top: 130px;
+    width: 700px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.image11-section {
+    margin-top: 130px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.image3-section img {
+    border: solid 5px black;
+}
+.image1-section img {
+    border: solid 5px black;
+}
+.image11-section img {
+    border: solid 5px black;
+}
+
+@media screen and (max-width: 650px) {
+    /* middle section */
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; /* Hide vertical scrollbar */
+    
+}
+
+.top-header {
+    width: 100%;
+    height: 100%;
+}
+
+.top-nav-header a {
+ font-size: 0.7em;
+ width: 100%;
+}
+.About-section {
+    width: 100%;
+    height: 100%;
+   
+    
+    
+    
+}
+
+.about-header-section {
+    margin-left: 0;
+    width: 100%;
+}
+
+.first-heading {
+    width: 50%;
+    height: 50px;
+    background-color: #2b2d42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.first-heading h1 {
+    color: aliceblue;
+    font-size: medium;
+}
+
+.first-paragraph-section {
+   width: 1000px;
+   font-family: 'Ysabeau SC', sans-serif;
+   width: 90%;
+   font-size: 0.7em;
+   margin-left: 15px;
+    
+}
+
+.second-heading {
+    width: 50%;
+    height: 50px;
+    background-color: #2b2d42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'Ysabeau SC', sans-serif;
+    width: 100%;
+}
+
+.second-heading h1 {
+    color: aliceblue;
+    font-size: 0.6em;
+}
+
+.second-paragraph-section {
+    width: 1000px;
+    font-family: 'Ysabeau SC', sans-serif;
+    width: 90%;
+    font-size: 0.7em;
+   
+}
+
+.third-heading {
+    width: 50%;
+    height: 70px;
+    background-color: #2b2d42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1em;
+    margin-top: 100px;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-align: center;
+    width: 100%;
+   
+}
+
+.third-heading h1 {
+    color: aliceblue;
+    font-size: 0.6em;
+    width: 100%;
+}
+
+.third-heading h1 {
+    font-size:0.6em;
+    font-family: 'Ysabeau SC', sans-serif;
+    width: 100%;
+    
+}
+
+.third-paragraph-section {
+    width: 1000px;
+    font-family: 'Ysabeau SC', sans-serif;
+    width: 90%;
+    font-size: 0.7em;
+    margin-left: 15px;
+}
+
+
+
+
+.fourth-heading {
+    margin-top: 100px;
+    font-family: 'Ysabeau SC', sans-serif;
+    width: 100%;
+}
+
+.image3-section {
+    margin-top: 130px;
+    font-family: 'Ysabeau SC', sans-serif;
+    width: 100%;
+    font-size: 0.6em;
+    margin-left: 15px;
+}
+
+.image1-section {
+    margin-top: 130px;
+    width: 700px;
+    font-family: 'Ysabeau SC', sans-serif;
+    width: 100%;
+    font-size: 0.6em;
+    margin-left: 15px;
+}
+
+
+.image11-section {
+    margin-top: 130px;
+    font-family: 'Ysabeau SC', sans-serif;
+    width: 100%;
+    font-size: 0.6em;
+    margin-left: 15px;
+}
+
+.image3-section img {
+    border: solid 5px black;
+    width: 200px;
+}
+.image1-section img {
+    border: solid 5px black;
+    width: 200px;
+}
+.image11-section img {
+    border: solid 5px black;
+    width: 200px;
+}
+
+.image-tag img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-section {
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #2b2d42;
+    
+    
+}
+
+.user-links a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.right-footer {
+    margin-top: 25px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.user-links h3 {
+
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.middle-footer >.footer-logo img {
+    width:200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.spacer1 {
+    padding: 5px;
+}
+
+.image-attribute {
+    margin-bottom: 20px;
+}
+}

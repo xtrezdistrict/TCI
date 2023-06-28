@@ -1,0 +1,165 @@
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.FAQ-wrapper {
+    width: 100%;
+    height: 2200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.faq-sector {
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.faq-sector h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    widows: 100px;
+    height: 80px;
+    background-color: #2b2d42;
+    color: white;
+    font-size: 2.5em;
+}
+
+.one{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2d42;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 100px;
+    
+}
+
+.two{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2d42;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.three{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2d42;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
+
+
+
+
+.four{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2d42;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.five{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2d42;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.six{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2d42;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.seven{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2d42;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.eight{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2d42;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.nine{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2d42;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.ten{
+    width: 100%;
+    height: 70px;
+    background-color: #2b2d42;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.eleven {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 650px) {
+    
+}

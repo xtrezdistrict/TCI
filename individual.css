@@ -1,0 +1,177 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.individual-wrapper {
+    width: 100%;
+    height:1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.survey-body {
+    padding-top: 50px;
+   
+}
+
+.survey-first-name-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-first-name-form input {
+   width: 300px;
+   height: 30px;
+}
+
+
+
+.survey-last-name-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-last-name-form input {
+    width: 300px;
+    height: 30px;
+ }
+
+.survey-age-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-age-form input {
+    width: 30px;
+    height: 30px;
+}
+
+.survey-address-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-address-form input {
+    width: 300px;
+    height: 30px;
+}
+
+.survey-textarea-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+.survey-button-form button {
+    width: 100px;
+    height: 30px;
+}
+
+@media screen and (max-width: 650px) {
+    
+.individual-wrapper {
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.survey-body {
+    padding-top: 50px;
+    margin-left: 50px;
+   
+}
+
+.survey-first-name-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.survey-first-name-form input {
+   width: 200px;
+   height: 30px;
+}
+
+
+
+.survey-last-name-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-last-name-form input {
+    width: 200px;
+    height: 30px;
+ }
+
+.survey-age-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-age-form input {
+    width: 30px;
+    height: 30px;
+}
+
+.survey-address-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-address-form input {
+    width: 200px;
+    height: 30px;
+}
+
+.survey-textarea-form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 200px;
+    height: 200px;
+}
+
+.survey-button-form button {
+    width: 100px;
+    height: 30px;
+    
+}
+
+.survey-button-form {
+    margin-bottom: 50px;
+}
+
+
+}
